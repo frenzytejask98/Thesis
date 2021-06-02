@@ -6,7 +6,7 @@ import pandas as pd
 import random, pickle, time
 from datetime import datetime
 # import json
-
+random.seed(42)
 class Consumer():
     def __init__(self, unique_id):
         # initialize the parent class with required parameters
